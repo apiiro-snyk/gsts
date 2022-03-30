@@ -1,12 +1,15 @@
 {
-  "name": "gsts",
+  "name": "@ConsultingMD/gsts",
   "version": "4.0.1",
   "description": "Google authentication for the AWS Management Console via Amazon's STS service",
   "license": "MIT",
-  "repository": "ruimarinho/gsts",
+  "repository": "ConsultingMD/gsts",
   "author": {
     "name": "Rui Marinho",
     "email": "ruipmarinho@gmail.com"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ConsultingMD"
   },
   "bin": {
     "gsts": "index.js"
